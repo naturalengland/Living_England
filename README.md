@@ -13,6 +13,8 @@ The code has been specifically written for LE, and has intricacies that are uniq
 
 The repository is split up into 'Workflow' scripts which call the filepaths and functions used in each step of the workflow, and 'Function' scripts where discrete functions are reused for particular tasks. These follow the processing workflow detailed in the diagram below.
 
+<img src="LE_workflow_diagram.png" alt="Living England workflow diagram" width="700" height="600">
+
 ### Copyright
 
 © Natural England 2024
