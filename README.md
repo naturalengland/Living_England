@@ -3,7 +3,7 @@
 ## About the Project
 The Living England (LE) project, led by Natural England, is a multi-year programme delivering a satellite-derived national habitat map showing the extent and distribution of England’s diverse broad habitats. This is in support of the Defra Environmental Land Management (ELM) schemes and the National Capital and Ecosystem Assessment (NCEA) Programmes. The project uses European Space Agency Sentinel-1 and Sentinel-2 imagery, alongside additional open source datasets, machine learning modelling and is supported by a national targetted field data collection programme.
 
-The current Living England habitat probability map for England is openly available to view on Defra's MAGIC platform, Defra's Data Services Platform, data.gov.uk and NE's Open data Platform, under an Open Government Licence v3.0.
+The current Living England habitat probability map for England is openly available to view on <a href="[https://www.data.gov.uk/dataset/8c36c913-eae3-411e-af2f-4d375d40a074/biogeographic-zones-living-england-2021)]">data.gov.uk</a>,<a href="https://naturalengland-defra.opendata.arcgis.com/maps/19aa7b1604434fd7a3b35f2fbfb9c519/about">Natural England Open Data Geoportal </a> , <a href="https://magic.defra.gov.uk/">Defra's MAGIC platform</a>, and <a href="[https://environment.data.gov.uk/](https://environment.data.gov.uk/dataset/042f14b2-3076-420d-b604-9657c0398fae)">Defra's Data Services Platform</a>, under an Open Government Licence v3.0.
 
 ## The Living_England repository
 
