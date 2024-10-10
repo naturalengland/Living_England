@@ -5,6 +5,8 @@ The Living England (LE) project, led by Natural England, is a multi-year program
 
 The current Living England habitat probability map for England is openly available to view on <a href="https://www.data.gov.uk/dataset/3a87c13c-1303-4452-9da4-5bb0ce84667f/living-england-2022-23">data.gov.uk</a>, <a href="https://naturalengland-defra.opendata.arcgis.com/maps/19aa7b1604434fd7a3b35f2fbfb9c519/about">Natural England Open Data Geoportal </a> , <a href="https://magic.defra.gov.uk/">Defra's MAGIC platform</a>, and <a href="https://environment.data.gov.uk/dataset/042f14b2-3076-420d-b604-9657c0398fae">Defra's Data Services Platform</a>, under an Open Government Licence v3.0.
 
+For further detail on the methods detailed and production of the Living England habitat map, please refer to the accompanying Technical User Guide: <a href="https://publications.naturalengland.org.uk/publication/5260859937652736">Living England 2022-23 Technical User Guide</a>
+
 ## The Living_England repository
 
 Living England is an ongoing long running project,  the code in this repository reflects the standardised method used to produce the Living England habitat maps from 2024 onwards (Living England 2022-23 map publication). The scripts are subject to change as improvements and optimisations are made to the reproducible analytical workflows. If you would like to be informed of any changes as they happen, please contact the team using the email address provided below.
@@ -67,9 +69,6 @@ The repository is split up into 'Workflow' scripts which call the filepaths and 
 </ul></li>
 
 </ol>
-
-## Further Information
-For further detail on the methods detailed and production of the Living England habitat map, please refer to the accompanying Technical User Guide: <a href="https://publications.naturalengland.org.uk/">Living England 2022-23 Technical User Guide</a>
 
 ## Copyright
 
