@@ -366,7 +366,7 @@ for (bgz in bgz_list) {
     dplyr::mutate(S2_aut_mean_ndbsi = ((S2_aut_mean_band11 + S2_aut_mean_band4) - (S2_aut_mean_band8 + S2_aut_mean_band2)) / ((S2_aut_mean_band11 + S2_aut_mean_band4) + (S2_aut_mean_band8 + S2_aut_mean_band2)))
 
   # select indices
-  ZonalSeg <- zonalIndices %>% dplyr::select(SegID, S2_spr_mean_ndvi:S2_aut_mean_ndvi)
+  ZonalSeg <- zonalIndices %>% dplyr::select(SegID, S2_spr_mean_ndbsi:S2_aut_mean_ndbsi)
 
   # write out
   fwrite(ZonalSeg, paste0(out_path, "BGZ", bgz, "_bare_indices.csv"), row.names = FALSE)
@@ -382,7 +382,7 @@ for (bgz in bgz_list) {
     dplyr::left_join(zonal_seg, by = "SegID") %>% # join to segments
     dplyr::filter(Class_name == "Segment") %>% # remove any water or urban
     # filter to keep just those where NBSI is over 0.2 in summer and autumn and 0.1 in spring.
-    dplyr::mutate(bare = ifelse(S2_spr_mean_ndvi >= 0.1 & S2_sum_mean_ndvi >= 0.2 & S2_aut_mean_ndvi >= 0.2, 1, 0)) %>%
+    dplyr::mutate(bare = ifelse(S2_spr_mean_ndbsi >= 0.1 & S2_sum_mean_ndbsi >= 0.2 & S2_aut_mean_ndbsi >= 0.2, 1, 0)) %>%
     dplyr::filter(bare == 1)
 
   # Write out
