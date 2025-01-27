@@ -22,10 +22,8 @@ wdir = sys.argv[2]
 # catch error
 try:
     # get user credentials
-    # asf_user = input("enter NASA Earthdata username: ")
-    # asf_pass = input("enter NASA Earthdata password: ")
-    asf_user = "cmoore22"
-    asf_pass = "NE-earthdata-01"
+    asf_user = input("enter NASA Earthdata username: ")
+    asf_pass = input("enter NASA Earthdata password: ")
 
     # download data
     asf_search.download_url(url=url_name, path=wdir,
